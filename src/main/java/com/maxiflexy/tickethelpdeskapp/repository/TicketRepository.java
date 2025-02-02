@@ -1,7 +1,7 @@
 package com.maxiflexy.tickethelpdeskapp.repository;
 
-import com.infometics.helpdesk.constants.Status;
-import com.infometics.helpdesk.model.Ticket;
+import com.maxiflexy.tickethelpdeskapp.constants.Status;
+import com.maxiflexy.tickethelpdeskapp.model.Ticket;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageRequest;
 import org.springframework.data.domain.Pageable;

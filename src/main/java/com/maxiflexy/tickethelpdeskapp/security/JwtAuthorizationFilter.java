@@ -6,9 +6,9 @@ import com.auth0.jwt.exceptions.JWTVerificationException;
 import com.auth0.jwt.interfaces.DecodedJWT;
 import com.auth0.jwt.interfaces.JWTVerifier;
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.infometics.helpdesk.constants.AppConstant;
-import com.infometics.helpdesk.dtos.global.ApiResponse;
-import com.infometics.helpdesk.utils.AppUtil;
+import com.maxiflexy.tickethelpdeskapp.constants.AppConstant;
+import com.maxiflexy.tickethelpdeskapp.dtos.global.ApiResponse;
+import com.maxiflexy.tickethelpdeskapp.utils.AppUtil;
 import jakarta.servlet.FilterChain;
 import jakarta.servlet.ServletException;
 import jakarta.servlet.http.HttpServletRequest;
@@ -28,8 +28,8 @@ import java.security.interfaces.RSAPrivateKey;
 import java.security.interfaces.RSAPublicKey;
 import java.util.Objects;
 
-import static com.infometics.helpdesk.utils.AppUtil.getPrivateKey;
-import static com.infometics.helpdesk.utils.AppUtil.getPublicKey;
+import static com.maxiflexy.tickethelpdeskapp.utils.AppUtil.getPrivateKey;
+import static com.maxiflexy.tickethelpdeskapp.utils.AppUtil.getPublicKey;
 
 @Slf4j
 public class JwtAuthorizationFilter extends BasicAuthenticationFilter {

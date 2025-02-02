@@ -1,10 +1,10 @@
 package com.maxiflexy.tickethelpdeskapp.service.impl;
 
 
-import com.infometics.helpdesk.model.Role;
-import com.infometics.helpdesk.model.User;
-import com.infometics.helpdesk.repository.RoleRepository;
-import com.infometics.helpdesk.repository.UserRepository;
+import com.maxiflexy.tickethelpdeskapp.model.Role;
+import com.maxiflexy.tickethelpdeskapp.model.User;
+import com.maxiflexy.tickethelpdeskapp.repository.RoleRepository;
+import com.maxiflexy.tickethelpdeskapp.repository.UserRepository;
 import jakarta.persistence.EntityNotFoundException;
 import org.springframework.security.core.context.SecurityContextHolder;
 import org.springframework.security.core.userdetails.UsernameNotFoundException;

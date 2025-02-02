@@ -1,8 +1,8 @@
 package com.maxiflexy.tickethelpdeskapp.service;
 
-import com.infometics.helpdesk.dtos.global.ApiResponse;
-import com.infometics.helpdesk.dtos.response.RolesResponse;
-import com.infometics.helpdesk.model.Role;
+import com.maxiflexy.tickethelpdeskapp.dtos.global.ApiResponse;
+import com.maxiflexy.tickethelpdeskapp.dtos.response.RolesResponse;
+import com.maxiflexy.tickethelpdeskapp.model.Role;
 
 import java.util.List;
 

@@ -1,6 +1,6 @@
 package com.maxiflexy.tickethelpdeskapp.service;
 
-import com.infometics.helpdesk.model.OTP;
+import com.maxiflexy.tickethelpdeskapp.model.OTP;
 
 public interface OtpService {
 

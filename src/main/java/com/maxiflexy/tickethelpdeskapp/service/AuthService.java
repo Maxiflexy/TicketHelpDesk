@@ -1,12 +1,12 @@
 package com.maxiflexy.tickethelpdeskapp.service;
 
-import com.infometics.helpdesk.dtos.global.ApiResponse;
-import com.infometics.helpdesk.dtos.request.CompletePasswordResetRequest;
-import com.infometics.helpdesk.dtos.request.EmailRequest;
-import com.infometics.helpdesk.dtos.request.LoginRequest;
-import com.infometics.helpdesk.dtos.request.RefreshTokenRequest;
-import com.infometics.helpdesk.dtos.response.LoginResponse;
-import com.infometics.helpdesk.dtos.response.PasswordResetResponse;
+import com.maxiflexy.tickethelpdeskapp.dtos.global.ApiResponse;
+import com.maxiflexy.tickethelpdeskapp.dtos.request.CompletePasswordResetRequest;
+import com.maxiflexy.tickethelpdeskapp.dtos.request.EmailRequest;
+import com.maxiflexy.tickethelpdeskapp.dtos.request.LoginRequest;
+import com.maxiflexy.tickethelpdeskapp.dtos.request.RefreshTokenRequest;
+import com.maxiflexy.tickethelpdeskapp.dtos.response.LoginResponse;
+import com.maxiflexy.tickethelpdeskapp.dtos.response.PasswordResetResponse;
 
 public interface AuthService {
 

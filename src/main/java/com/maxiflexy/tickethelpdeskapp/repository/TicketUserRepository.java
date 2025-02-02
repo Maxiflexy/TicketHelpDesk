@@ -1,6 +1,6 @@
 package com.maxiflexy.tickethelpdeskapp.repository;
 
-import com.infometics.helpdesk.model.TicketUser;
+import com.maxiflexy.tickethelpdeskapp.model.TicketUser;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.util.List;

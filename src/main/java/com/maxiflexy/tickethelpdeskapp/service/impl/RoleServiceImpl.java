@@ -1,13 +1,13 @@
 package com.maxiflexy.tickethelpdeskapp.service.impl;
 
-import com.infometics.helpdesk.constants.AppConstant;
-import com.infometics.helpdesk.dtos.global.ApiResponse;
-import com.infometics.helpdesk.dtos.response.RolesResponse;
-import com.infometics.helpdesk.model.Role;
-import com.infometics.helpdesk.model.User;
-import com.infometics.helpdesk.repository.RoleRepository;
-import com.infometics.helpdesk.repository.UserRepository;
-import com.infometics.helpdesk.service.RoleService;
+import com.maxiflexy.tickethelpdeskapp.constants.AppConstant;
+import com.maxiflexy.tickethelpdeskapp.dtos.global.ApiResponse;
+import com.maxiflexy.tickethelpdeskapp.dtos.response.RolesResponse;
+import com.maxiflexy.tickethelpdeskapp.model.Role;
+import com.maxiflexy.tickethelpdeskapp.model.User;
+import com.maxiflexy.tickethelpdeskapp.repository.RoleRepository;
+import com.maxiflexy.tickethelpdeskapp.repository.UserRepository;
+import com.maxiflexy.tickethelpdeskapp.service.RoleService;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.BeanUtils;
 import org.springframework.stereotype.Service;
@@ -40,7 +40,7 @@ public class RoleServiceImpl extends UserHandler implements RoleService {
         List<Role> roles = roleRepository.findAll();
         List<RolesResponse> rolesResponses = new ArrayList<>();
 
-        if (currentUser.getRole().getRoleName().equals(com.infometics.helpdesk.constants.Role.ROLE_SUPER_ADMIN.name())) {
+        if (currentUser.getRole().getRoleName().equals(com.maxiflexy.tickethelpdeskapp.constants.Role.ROLE_SUPER_ADMIN.name())) {
             for (Role role : roles) {
                 RolesResponse rolesResponse = new RolesResponse();
                 BeanUtils.copyProperties(role, rolesResponse);
@@ -49,7 +49,7 @@ public class RoleServiceImpl extends UserHandler implements RoleService {
         } else {
             rolesResponses = roles.stream()
                     .filter(role -> {
-                        var r = com.infometics.helpdesk.constants.Role.valueOf(role.getRoleName());
+                        var r = com.maxiflexy.tickethelpdeskapp.constants.Role.valueOf(role.getRoleName());
                         log.info(currentUser.toString());
                         String organization = currentUser.getOrganization().getOrgCode().equals(AppConstant.INFOMETICS_ORG_CODE) ? AppConstant.INFOMETICS_ORG_CODE : AppConstant.CLIENT_ENUM_ROLE;
                         return r.getOrganization().equals(AppConstant.ADMIN_ENUM_ROLE) || r.getOrganization().equals(organization);

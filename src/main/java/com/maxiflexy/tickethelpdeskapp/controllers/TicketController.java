@@ -1,11 +1,11 @@
 package com.maxiflexy.tickethelpdeskapp.controllers;
 
-import com.infometics.helpdesk.constants.Priority;
-import com.infometics.helpdesk.dtos.global.ApiResponse;
-import com.infometics.helpdesk.dtos.global.ApiResponseTickets;
-import com.infometics.helpdesk.dtos.request.TicketRequest;
-import com.infometics.helpdesk.dtos.response.*;
-import com.infometics.helpdesk.service.TicketService;
+import com.maxiflexy.tickethelpdeskapp.constants.Priority;
+import com.maxiflexy.tickethelpdeskapp.dtos.global.ApiResponse;
+import com.maxiflexy.tickethelpdeskapp.dtos.global.ApiResponseTickets;
+import com.maxiflexy.tickethelpdeskapp.dtos.request.TicketRequest;
+import com.maxiflexy.tickethelpdeskapp.dtos.response.*;
+import com.maxiflexy.tickethelpdeskapp.service.TicketService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.core.io.ByteArrayResource;
 import org.springframework.http.HttpHeaders;

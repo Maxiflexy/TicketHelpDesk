@@ -1,6 +1,6 @@
 package com.maxiflexy.tickethelpdeskapp.security;
 
-import com.infometics.helpdesk.service.UserService;
+import com.maxiflexy.tickethelpdeskapp.service.UserService;
 import jakarta.persistence.EntityNotFoundException;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.security.core.userdetails.UserDetails;

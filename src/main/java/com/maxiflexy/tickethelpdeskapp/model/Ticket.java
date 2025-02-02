@@ -1,7 +1,7 @@
 package com.maxiflexy.tickethelpdeskapp.model;
 
-import com.infometics.helpdesk.constants.Priority;
-import com.infometics.helpdesk.constants.Status;
+import com.maxiflexy.tickethelpdeskapp.constants.Priority;
+import com.maxiflexy.tickethelpdeskapp.constants.Status;
 import jakarta.persistence.*;
 import lombok.Data;
 import lombok.EqualsAndHashCode;

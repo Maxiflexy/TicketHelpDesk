@@ -1,7 +1,7 @@
 package com.maxiflexy.tickethelpdeskapp.repository;
 
-import com.infometics.helpdesk.model.Organization;
-import com.infometics.helpdesk.model.User;
+import com.maxiflexy.tickethelpdeskapp.model.Organization;
+import com.maxiflexy.tickethelpdeskapp.model.User;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.query.Param;

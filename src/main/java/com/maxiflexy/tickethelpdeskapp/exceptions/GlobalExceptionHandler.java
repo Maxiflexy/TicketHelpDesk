@@ -15,7 +15,7 @@ import org.springframework.web.bind.annotation.RestControllerAdvice;
 import java.util.HashMap;
 import java.util.Map;
 
-import static com.infometics.helpdesk.constants.AppConstant.failedResponseCode;
+import static com.maxiflexy.tickethelpdeskapp.constants.AppConstant.failedResponseCode;
 
 @Slf4j
 @RestControllerAdvice

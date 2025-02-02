@@ -1,6 +1,6 @@
 package com.maxiflexy.tickethelpdeskapp.repository;
 
-import com.infometics.helpdesk.model.Organization;
+import com.maxiflexy.tickethelpdeskapp.model.Organization;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 public interface OrganizationRepository extends JpaRepository<Organization, Long> {

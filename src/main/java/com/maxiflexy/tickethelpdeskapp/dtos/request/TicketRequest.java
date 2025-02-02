@@ -1,6 +1,6 @@
 package com.maxiflexy.tickethelpdeskapp.dtos.request;
 
-import com.infometics.helpdesk.constants.Priority;
+import com.maxiflexy.tickethelpdeskapp.constants.Priority;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;

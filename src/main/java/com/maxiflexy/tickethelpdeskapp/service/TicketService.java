@@ -1,9 +1,9 @@
 package com.maxiflexy.tickethelpdeskapp.service;
 
-import com.infometics.helpdesk.dtos.global.ApiResponse;
-import com.infometics.helpdesk.dtos.global.ApiResponseTickets;
-import com.infometics.helpdesk.dtos.request.TicketRequest;
-import com.infometics.helpdesk.dtos.response.*;
+import com.maxiflexy.tickethelpdeskapp.dtos.global.ApiResponse;
+import com.maxiflexy.tickethelpdeskapp.dtos.global.ApiResponseTickets;
+import com.maxiflexy.tickethelpdeskapp.dtos.request.TicketRequest;
+import com.maxiflexy.tickethelpdeskapp.dtos.response.*;
 
 import java.util.List;
 

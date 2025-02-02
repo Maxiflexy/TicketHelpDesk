@@ -1,12 +1,12 @@
 package com.maxiflexy.tickethelpdeskapp.controllers;
 
-import com.infometics.helpdesk.dtos.global.ApiResponse;
-import com.infometics.helpdesk.dtos.global.PaginatedEntity;
-import com.infometics.helpdesk.dtos.request.PasswordResetRequest;
-import com.infometics.helpdesk.dtos.request.UserRequest;
-import com.infometics.helpdesk.dtos.response.UserIdResponse;
-import com.infometics.helpdesk.dtos.response.UserResponse;
-import com.infometics.helpdesk.service.UserService;
+import com.maxiflexy.tickethelpdeskapp.dtos.global.ApiResponse;
+import com.maxiflexy.tickethelpdeskapp.dtos.global.PaginatedEntity;
+import com.maxiflexy.tickethelpdeskapp.dtos.request.PasswordResetRequest;
+import com.maxiflexy.tickethelpdeskapp.dtos.request.UserRequest;
+import com.maxiflexy.tickethelpdeskapp.dtos.response.UserIdResponse;
+import com.maxiflexy.tickethelpdeskapp.dtos.response.UserResponse;
+import com.maxiflexy.tickethelpdeskapp.service.UserService;
 import jakarta.validation.Valid;
 import org.springframework.http.ResponseEntity;
 import org.springframework.security.access.prepost.PreAuthorize;

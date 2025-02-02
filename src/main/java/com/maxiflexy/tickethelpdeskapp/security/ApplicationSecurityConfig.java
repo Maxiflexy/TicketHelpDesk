@@ -2,8 +2,8 @@ package com.maxiflexy.tickethelpdeskapp.security;
 
 
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.infometics.helpdesk.service.UserService;
-import com.infometics.helpdesk.utils.AppUtil;
+import com.maxiflexy.tickethelpdeskapp.service.UserService;
+import com.maxiflexy.tickethelpdeskapp.utils.AppUtil;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

@@ -1,6 +1,6 @@
 package com.maxiflexy.tickethelpdeskapp.repository;
 
-import com.infometics.helpdesk.model.OTP;
+import com.maxiflexy.tickethelpdeskapp.model.OTP;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.time.LocalDateTime;

@@ -1,15 +1,15 @@
 package com.maxiflexy.tickethelpdeskapp.service.impl;
 
-import com.infometics.helpdesk.dtos.request.CreateOrganizationRequestDto;
-import com.infometics.helpdesk.dtos.request.UpdateOrganizationRequest;
-import com.infometics.helpdesk.dtos.response.*;
-import com.infometics.helpdesk.exceptions.BadRequestException;
-import com.infometics.helpdesk.exceptions.DuplicateResourceException;
-import com.infometics.helpdesk.exceptions.NotFoundException;
-import com.infometics.helpdesk.model.Organization;
-import com.infometics.helpdesk.repository.OrganizationRepository;
-import com.infometics.helpdesk.service.OrganizationService;
-import com.infometics.helpdesk.utils.OrganizationUtils;
+import com.maxiflexy.tickethelpdeskapp.dtos.request.CreateOrganizationRequestDto;
+import com.maxiflexy.tickethelpdeskapp.dtos.request.UpdateOrganizationRequest;
+import com.maxiflexy.tickethelpdeskapp.dtos.response.*;
+import com.maxiflexy.tickethelpdeskapp.exceptions.BadRequestException;
+import com.maxiflexy.tickethelpdeskapp.exceptions.DuplicateResourceException;
+import com.maxiflexy.tickethelpdeskapp.exceptions.NotFoundException;
+import com.maxiflexy.tickethelpdeskapp.model.Organization;
+import com.maxiflexy.tickethelpdeskapp.repository.OrganizationRepository;
+import com.maxiflexy.tickethelpdeskapp.service.OrganizationService;
+import com.maxiflexy.tickethelpdeskapp.utils.OrganizationUtils;
 import jakarta.persistence.EntityNotFoundException;
 import lombok.AllArgsConstructor;
 import org.springframework.stereotype.Service;
@@ -18,9 +18,9 @@ import java.util.List;
 import java.util.Optional;
 import java.util.stream.Collectors;
 
-import static com.infometics.helpdesk.constants.OrganizationConstant.*;
-import static com.infometics.helpdesk.constants.OrganizationConstant.ORGANIZATION_CODE_ALREADY_EXISTS;
-import static com.infometics.helpdesk.utils.OrganizationUtils.*;
+import static com.maxiflexy.tickethelpdeskapp.constants.OrganizationConstant.*;
+import static com.maxiflexy.tickethelpdeskapp.constants.OrganizationConstant.ORGANIZATION_CODE_ALREADY_EXISTS;
+import static com.maxiflexy.tickethelpdeskapp.utils.OrganizationUtils.*;
 
 @AllArgsConstructor
 @Service

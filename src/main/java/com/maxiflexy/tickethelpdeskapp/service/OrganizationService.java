@@ -1,9 +1,9 @@
 package com.maxiflexy.tickethelpdeskapp.service;
 
-import com.infometics.helpdesk.dtos.request.CreateOrganizationRequestDto;
-import com.infometics.helpdesk.dtos.request.UpdateOrganizationRequest;
-import com.infometics.helpdesk.dtos.response.*;
-import com.infometics.helpdesk.model.Organization;
+import com.maxiflexy.tickethelpdeskapp.dtos.request.CreateOrganizationRequestDto;
+import com.maxiflexy.tickethelpdeskapp.dtos.request.UpdateOrganizationRequest;
+import com.maxiflexy.tickethelpdeskapp.dtos.response.*;
+import com.maxiflexy.tickethelpdeskapp.model.Organization;
 
 import java.util.List;
 

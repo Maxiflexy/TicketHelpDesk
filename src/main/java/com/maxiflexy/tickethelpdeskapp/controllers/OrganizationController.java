@@ -1,18 +1,18 @@
 package com.maxiflexy.tickethelpdeskapp.controllers;
 
-import com.infometics.helpdesk.dtos.global.ApiResponse;
-import com.infometics.helpdesk.dtos.request.CreateOrganizationRequestDto;
-import com.infometics.helpdesk.dtos.request.UpdateOrganizationRequest;
-import com.infometics.helpdesk.dtos.response.*;
-import com.infometics.helpdesk.service.OrganizationService;
+import com.maxiflexy.tickethelpdeskapp.dtos.global.ApiResponse;
+import com.maxiflexy.tickethelpdeskapp.dtos.request.CreateOrganizationRequestDto;
+import com.maxiflexy.tickethelpdeskapp.dtos.request.UpdateOrganizationRequest;
+import com.maxiflexy.tickethelpdeskapp.dtos.response.*;
+import com.maxiflexy.tickethelpdeskapp.service.OrganizationService;
 import org.springframework.http.ResponseEntity;
 import org.springframework.security.access.prepost.PreAuthorize;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
-import static com.infometics.helpdesk.constants.AppConstant.successResponseCode;
-import static com.infometics.helpdesk.constants.OrganizationConstant.*;
+import static com.maxiflexy.tickethelpdeskapp.constants.AppConstant.successResponseCode;
+import static com.maxiflexy.tickethelpdeskapp.constants.OrganizationConstant.*;
 
 @RestController
 @RequestMapping("/v1/ticket-helpdesk/organization")

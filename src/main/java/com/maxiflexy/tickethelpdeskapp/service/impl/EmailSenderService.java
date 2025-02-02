@@ -1,7 +1,7 @@
 package com.maxiflexy.tickethelpdeskapp.service.impl;
 
 
-import com.infometics.helpdesk.model.MailModel;
+import com.maxiflexy.tickethelpdeskapp.model.MailModel;
 import freemarker.template.Configuration;
 import freemarker.template.TemplateException;
 import jakarta.mail.MessagingException;

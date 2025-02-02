@@ -1,9 +1,9 @@
 package com.maxiflexy.tickethelpdeskapp.service.impl;
 
-import com.infometics.helpdesk.exceptions.BadRequestException;
-import com.infometics.helpdesk.model.OTP;
-import com.infometics.helpdesk.repository.OtpRepository;
-import com.infometics.helpdesk.service.OtpService;
+import com.maxiflexy.tickethelpdeskapp.exceptions.BadRequestException;
+import com.maxiflexy.tickethelpdeskapp.model.OTP;
+import com.maxiflexy.tickethelpdeskapp.repository.OtpRepository;
+import com.maxiflexy.tickethelpdeskapp.service.OtpService;
 import org.springframework.stereotype.Service;
 
 import java.time.LocalDateTime;

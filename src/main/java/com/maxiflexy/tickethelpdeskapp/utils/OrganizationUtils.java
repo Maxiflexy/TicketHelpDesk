@@ -1,10 +1,10 @@
 package com.maxiflexy.tickethelpdeskapp.utils;
 
-import com.infometics.helpdesk.dtos.request.CreateOrganizationRequestDto;
-import com.infometics.helpdesk.dtos.request.UpdateOrganizationRequest;
-import com.infometics.helpdesk.dtos.response.CreateOrganizationResponse;
-import com.infometics.helpdesk.dtos.response.FetchOrganizationResponse;
-import com.infometics.helpdesk.model.Organization;
+import com.maxiflexy.tickethelpdeskapp.dtos.request.CreateOrganizationRequestDto;
+import com.maxiflexy.tickethelpdeskapp.dtos.request.UpdateOrganizationRequest;
+import com.maxiflexy.tickethelpdeskapp.dtos.response.CreateOrganizationResponse;
+import com.maxiflexy.tickethelpdeskapp.dtos.response.FetchOrganizationResponse;
+import com.maxiflexy.tickethelpdeskapp.model.Organization;
 import org.springframework.security.core.context.SecurityContextHolder;
 
 import java.time.LocalDateTime;
